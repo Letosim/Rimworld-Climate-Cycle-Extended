@@ -5,7 +5,7 @@ using Verse;
 namespace ClimateCycleExtended
 {
 
-    //thanks to AlexTD and Why_is_that for the below
+    //https://github.com/RimWorld-CCL-Reborn/SettingsHelper
     internal static class SettingsHelper
     {
 
