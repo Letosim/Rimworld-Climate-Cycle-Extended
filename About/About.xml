@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Climate Cycle Extended</name>
+	<packageId>Leto.ClimateCycleExtended</packageId>
+	<author>Leto</author>
+	<supportedVersions>
+		<li>1.3</li>
+	</supportedVersions>
+	<description>
+	Adds a new Climate Cycle gamecondition you can chose the duration 
+	and temperatue offset in the modsettings.
+	Defaults are set to 4 years with a temprature offset of 40°.
+	With these settings on a tile with a base avarage temperature of -10° to 25° 
+	you would get hot years from 30° to 65° and cold years from -50° to -15°.
+	</description>
+</ModMetaData>
