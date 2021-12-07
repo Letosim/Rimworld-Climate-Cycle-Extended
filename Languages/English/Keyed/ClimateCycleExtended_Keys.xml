@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CCE_ModSettings_OffsetHot>Temperature Offset Hot Period</CCE_ModSettings_OffsetHot>
+  <CCE_ModSettings_OffsetCold>Temperature Offset Cold Period</CCE_ModSettings_OffsetCold>
+  <CCE_ModSettings_CycleDuration>Cycle Duration</CCE_ModSettings_CycleDuration>
+  <CCE_GameCondition_ToolTip>A multi-year climate cycle due to an elliptical orbit.\nCurrent impact on temperature </CCE_GameCondition_ToolTip>
+  <CCE_ModSettings_InvertCycle_ToolTip>If false your first Period will be hot when true cold</CCE_ModSettings_InvertCycle_ToolTip>
+  <CCE_ModSettings_InvertCycle>Invert Cycle</CCE_ModSettings_InvertCycle>
+  <CCE_ModSettings_InfoTextA>The cycle will last </CCE_ModSettings_InfoTextA>
+  <CCE_ModSettings_InfoTextB> years (</CCE_ModSettings_InfoTextB>
+  <CCE_ModSettings_InfoTextC>days). The first hot peak will reach its limit after </CCE_ModSettings_InfoTextC>
+  <CCE_ModSettings_InfoTextD> days. And the first cold peak after </CCE_ModSettings_InfoTextD>
+  <CCE_ModSettings_InfoTextE> days.</CCE_ModSettings_InfoTextE>
+
+</LanguageData>

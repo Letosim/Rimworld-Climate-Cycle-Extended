@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <GameConditionDef>
+    <defName>ClimateCycle_Extended</defName>
+    <conditionClass>ClimateCycleExtended.GameConditionClimateCycleExtended</conditionClass>
+    <label>Climate cycle extended</label>
+    <description>A multi-year climate cycle due to an elliptical orbit.</description>
+    <canBePermanent>true</canBePermanent>
+  </GameConditionDef>
+</Defs>
