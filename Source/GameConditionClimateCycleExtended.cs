@@ -69,7 +69,7 @@ namespace ClimateCycleExtended
         public void UpdateGameCondition(bool endOfDay)
         {
             temperature = Mathf.Sin((currentDay / (cycleLength * (float)GenDate.DaysPerYear) - Mathf.Floor(currentDay / (cycleLength * (float)GenDate.DaysPerYear))) * 6.28f);
-            temperature = cycleInverted ? temperature : temperature *= -1f;
+            temperature = cycleInverted ? temperature *= -1f : temperature;
             temperature = daysTillCurrentPauseEnds == 0 ? temperature : Mathf.Round(temperature);
 
             if (endOfDay) 
