@@ -6,8 +6,8 @@ namespace ClimateCycleExtended
 {
 	public class GameConditionClimateCycleExtended : GameCondition
 	{
-		public static ClimateCycleExtendedModSettings settings;
-        public override string TooltipString{ get {return toolTip;}}
+        public static ClimateCycleExtendedModSettings settings;
+        public override string TooltipString { get { return toolTip; } }
         private string toolTip = "";
 
         public bool cycleInverted = false;
@@ -96,9 +96,9 @@ namespace ClimateCycleExtended
 
             if(currentPeriod != period)
             {
-                float durationClamped = Mathf.Clamp((cycleLength * (float)GenDate.DaysPerYear), 0, 6000);
-                int minDaysPause = (int)Mathf.Lerp(6f, 30f, currentDay / durationClamped);//clamped clamps
-                int maxDaysPause = (int)Mathf.Lerp(12f, 60f, currentDay / durationClamped);
+                float durationClamped = Mathf.Clamp(cycleLength, 0, 100);
+                int minDaysPause = (int)Mathf.Lerp(6f, 30f, durationClamped / 100f);
+                int maxDaysPause = (int)Mathf.Lerp(12f, 60f, durationClamped / 100f);
 
                 daysTillCurrentPauseEnds = Random.Range(minDaysPause, maxDaysPause);
                 daysTillCurrentPauseEnds = period != 0 ? daysTillCurrentPauseEnds : daysTillCurrentPauseEnds / 4;
