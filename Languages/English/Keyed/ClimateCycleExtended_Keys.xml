@@ -11,5 +11,7 @@
   <CCE_ModSettings_InfoTextC>days). The first hot peak will reach its limit after </CCE_ModSettings_InfoTextC>
   <CCE_ModSettings_InfoTextD> days. And the first cold peak after </CCE_ModSettings_InfoTextD>
   <CCE_ModSettings_InfoTextE> days.</CCE_ModSettings_InfoTextE>
-
+  <CCE_ModSettings_InGame_OffsetHot>Temperature Offset Hot is set to: </CCE_ModSettings_InGame_OffsetHot>
+  <CCE_ModSettings_InGame_OffsetCold>Temperature Offset Cold is set to: </CCE_ModSettings_InGame_OffsetCold>
+  <CCE_ModSettings_InGame_CycleDuration>Cycle Duration is set to: </CCE_ModSettings_InGame_CycleDuration>
 </LanguageData>

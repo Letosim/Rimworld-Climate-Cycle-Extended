@@ -25,6 +25,7 @@ namespace ClimateCycleExtended
         {
             base.Init();
 
+
             if (cycleLength == 0)
             {
                 cycleLength = settings.cyclePeriods;
@@ -32,6 +33,7 @@ namespace ClimateCycleExtended
                 temperatureOffsetWarmCurrentSave = settings.temperatureOffsetWarm;
                 currentDay = GenDate.DaysPassed;
                 cycleInverted = settings.inverted;
+                settings.gameCondition = this;
                 if (currentDay == 0)
                     currentPeriod = 0;
                 UpdateGameCondition(false);
@@ -50,6 +52,7 @@ namespace ClimateCycleExtended
             Scribe_Values.Look(ref this.currentPeriod, "currentPeriod", -1, true);
             Scribe_Values.Look(ref this.currentDay, "currentDay",(float)(timesShift + GenDate.DaysPassed), true);
             Scribe_Values.Look(ref this.cycleInverted, "cycleInverted", settings.inverted, true);
+            settings.gameCondition = this;
 
             UpdateGameCondition(false);
         }
